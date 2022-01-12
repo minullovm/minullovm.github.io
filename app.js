@@ -24,5 +24,5 @@ for (tryCount; tryCount < 7; tryCount++) {
 }
 
 if(tryCount == maxTryCount) {
-    alert ('Вы проиграли! Попробуйте заново')
+    alert ('Увы, вы проиграли... Не расстраивайтесь! Попробуйте ещё раз!')
 }
