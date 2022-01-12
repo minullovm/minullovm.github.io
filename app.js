@@ -2,7 +2,7 @@
 
 let a = new Date().toLocaleDateString();
 let b = new Date().toLocaleTimeString();
-alert('Привет!\nСегодня ' + a + '\nВремя сейчас ' + b);
+alert('Привет!\nСегодня ' + a + '\nВремя сейчас ' + b + '\nЯ предлагаю сыграть тебе в игру - Угадайку!\nЖми кнопку и поехали!');
 
 
 let numberRandom = Math.round(Math.random() * 100);
