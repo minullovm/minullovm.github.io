@@ -1,5 +1,10 @@
 "use strict";
 
+let a = new Date().toLocaleDateString();
+let b = new Date().toLocaleTimeString();
+alert('Привет!\nСегодня ' + a + '\nВремя сейчас ' + b);
+
+
 let numberRandom = Math.round(Math.random() * 100);
 console.log(numberRandom);
 let number = prompt('Угадайте число от 1 до 100\nУ вас есть 7 попыток');
