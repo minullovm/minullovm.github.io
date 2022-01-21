@@ -45,4 +45,4 @@ setTimeout(function () {
 setTimeout(function () {
     div.innerText = 'Даша. Ну что? Как дела? Сучка :) Смотри что умею :)'
     divv.append(div)
-}, 8000);
+}, 9000);
