@@ -6,9 +6,9 @@ alert('Привет!\nСегодня ' + a + '\nВремя сейчас ' + b + 
 
 
 let numberRandom = Math.round(Math.random() * 100);
+const number1 = number;
 console.log(numberRandom);
 let number = prompt('Угадайте число от 1 до 100\nУ вас есть 7 попыток');
-const number1 = number;
 
 let tryCount = 1;
 let maxTryCount = 7;
