@@ -8,6 +8,7 @@ alert('Привет!\nСегодня ' + a + '\nВремя сейчас ' + b + 
 let numberRandom = Math.round(Math.random() * 100);
 console.log(numberRandom);
 let number = prompt('Угадайте число от 1 до 100\nУ вас есть 7 попыток');
+const number1 = number;
 
 let tryCount = 1;
 let maxTryCount = 7;
@@ -24,5 +25,5 @@ for (tryCount; tryCount < 7; tryCount++) {
 }
 
 if(tryCount == maxTryCount) {
-    alert (`Увы, вы проиграли... Не расстраивайтесь! Попробуйте ещё раз!\nПравильное число: ${number}\nДля того чтобы попробовать заново, просто обновите страницу`)
+    alert (`Увы, вы проиграли... Не расстраивайтесь! Попробуйте ещё раз!\nПравильное число: ${number1}\nДля того чтобы попробовать заново, просто обновите страницу`)
 }
