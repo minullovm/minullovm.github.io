@@ -22,9 +22,10 @@ for (tryCount; tryCount < 7; tryCount++) {
        alert('Загаданное число больше вашего');
     }
     number = +prompt('Попробуйте ещё раз\nУгадайте число от 1 до 100\nУ вас осталось ' + (maxTryCount - tryCount) + ' попыток');
-}
-
-if(tryCount == maxTryCount) {
+  if(tryCount == maxTryCount) {
     alert (`Увы, вы проиграли... Не расстраивайтесь! Попробуйте ещё раз!\nПравильное число: ${number1}\nДля того чтобы попробовать заново, просто обновите страницу`)
 }
+}
+
+
 console.log(number1)
