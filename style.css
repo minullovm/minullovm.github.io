@@ -1,0 +1,15 @@
+body {
+	text-align: center;
+	margin: 0;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+li {
+	padding: 10px
+}
