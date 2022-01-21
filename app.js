@@ -27,3 +27,4 @@ for (tryCount; tryCount < 7; tryCount++) {
 if(tryCount == maxTryCount) {
     alert (`Увы, вы проиграли... Не расстраивайтесь! Попробуйте ещё раз!\nПравильное число: ${number1}\nДля того чтобы попробовать заново, просто обновите страницу`)
 }
+console.log(number1)
